@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Team-a-frontend">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title -->
+  <title>LiveGrin</title>
+
+  <!-- Bootstrap -->
+  <link rel='stylesheet' href='/bootstrap-4.4.1/dist/css/bootstrap.css'>
+  <!-- Bootstap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap JS-->
+  <script type="js/bootstrap.min.js"></script>
+
+  <!-- Fontawesome-Offline -->
+  <script src="fontawesome-free-5.12.1-web/js/all.js"></script>
+
+  <!-- FontAwesome-Online -->
+  <link rel="stylesheet" href="/fontawesome-free-5.12.1-web/css/all.css">
+  <link rel="stylesheet" href="/fontawesome-free-5.12.1-web/css/brands.min.css">
+  <link rel="stylesheet" href="/fontawesome-free-5.12.1-web/css/regular.css">
+
+  <!-- Custom-CSS -->
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+</head>
+
+<body>
+
+  <!-- TopBar -->
+  <section class="full-header">
+    <div class="top-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <div class="top-header-contact">
+              <ul class="top-menu1">
+                <li><i class="fas fa-phone-square"></i><a href="tel:+0810000000" style="margin-left:20px; margin-right:20px">+234 (0)8010000000</a></li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:livegrin@agro.com" style="margin-left:20px; margin-right:20px">info@livegrin.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
+            <ul class="top-menu2">
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <span style="color:#fff"> | </span>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- TopBar Ends Here -->
+
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html" style="font-size:2.2rem"><img src="LiveGrin_Logo.png" alt="">Live<span style="font-size:2.2rem;color:green">Grin</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutUS.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="buyProduct.html">Buy Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Jumbotron -->
+  <div class="jumbotron my-jumbotron">
+    <div class="jumbotron__cont">
+      <h1 class="display-4">Welcome To LiveGrin</h1>
+      <p class="lead">Buy and Sell any Agricultural Producrt here.</p>
+      <p class="lead">Get evey farm products directly from the farm at yout doorstep...</p>
+      <hr class="my-4">
+      <a class="btn btn-success btn-md" href="buyProduct.html" role="button">Get Started</a>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row jumbotron">
+      <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+        <h2>Have farm products to sell?</h2>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+        <a href="getStarted.html"><button type="button" class="btn btn-success btn-md">Get Started</button></a>
+      </div>
+    </div>
+  </div>
+  <!-- Jumbotron Ends Here -->
+
+  <!-- Featured Section Begin -->
+  <section class="featured spad">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-title">
+            <h2>Featured Product</h2>
+          </div>
+          <div class="featured__controls">
+            <ul>
+<li class="active" data-filter="*"><a href="#" data-filter=".All">All</a></li>
+<li><a href="#" data-filter=".Vegetables">Vegetables</a></li>
+<li><a href="#" data-filter=".Poulrty">Poultry</a></li>
+<li><a href="#" data-filter=".Meat">Meat</a></li>
+<li><a href="#" data-filter=".Seafoods">Seafoods</a></li>
+<li><a href="#" data-filter="Milk|Eggs">Milk | Eggs</a></li>
+<li><a href="#" data-filter=".Grains">Grains</a></li>-
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row featured__filter">
+        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fresh-meat">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+              <img src="img/featured/feature-1.jpg" class="card-img-top" alt="Beef">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Beef</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fastfood">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img\featured\feature-2.jpg">
+              <img src="img/featured/feature-2.jpg" class="card-img-top" alt="Bananna">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Bananna</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix vegetables fresh-meat">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-3.jpg">
+              <img src="img/featured/feature-3.jpg" class="card-img-top" alt="Guava">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Guava</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood oranges">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-4.jpg">
+              <img src="img/featured/feature-4.jpg" class="card-img-top" alt="Watermelon">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Watermelon</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-5.jpg">
+              <img src="img/featured/feature-5.jpg" class="card-img-top" alt="Grape">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Grape</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix oranges fastfood">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-6.jpg">
+              <img src="img\featured\feature-9.jpg" class="card-img-top" alt="Oranges">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Oranges</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix fresh-meat vegetables">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img\featured\feature-7.jpg">
+              <img src="img/featured/feature-7.jpg" class="card-img-top" alt="Lemon">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Lemon</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mix fastfood vegetables">
+          <div class="featured__item">
+            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-8.jpg">
+              <img src="img/featured/feature-8.jpg" class="card-img-top" alt="Apples">
+              <ul class="featured__item__pic__hover">
+                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                <li><a href="#"><i class="fa fa-phone"></i></a></li>
+                <li><a href="buyProduct.html"><i class="fa fa-shopping-cart"></i></a></li>
+              </ul>
+            </div>
+            <div class="featured__item__text">
+              <h6><a href="#">Apples</a></h6>
+              <h5>#3,000.00</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Featured Section End -->
+
+  <!-- How LiveGrin Works -->
+  <div class="container-fluid">
+    <div class="row how_it_works text-center">
+      <div class="col-12">
+        <h1 class="didplay-4">How LiveGrin Works </h1>
+      </div>
+      <hr>
+      <div class="col-12">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore consequatur reprehenderit optio dolores quibusdam id, iusto accusamus quaerat repellat. Ad.</p>
+      </div>
+    </div>
+  </div>
+  <!-- How LiveGrin Works Ends -->
+
+  <!-- Cards Section -->
+  <div class="container bottom-padding" >
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Harvested</h5>
+            <hr class="card-section">
+            <div class="buying-icon">
+              <i class="fa fa-2x fa-credit-card"></i>
+            </div>
+          <p class="card-text">Each day, local farmers add or update their produce, you can order the freshest of fruits,vegetables,meat, diary and eggs direclty from the farm
+              seamlessly via our app.</p>
+              <a href="#">
+                <p>See available products></p>
+              </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Pick a Product</h5>
+            <hr class="card-section">
+            <div class="buying-icon">
+              <i class="fa fa-2x fa-credit-card"></i>
+            </div>
+            <p class="card-text">Select your choice of agricultural product from the farm of your choice at the comfort of your home seamlessly via our appcon.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Delivery / Payment</h5>
+            <hr class="card-section">
+            <div class="buying-icon">
+              <i class="fa fa-2x fa-credit-card"></i>
+            </div>
+            <p class="card-text">Receive goods conveniently at your doorstep and reduce the need to go to marketplaces or encounter hassles during food purchases.</p>
+            <a href="#">
+              <p>Learn more >>></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards Section Ends Here -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-md-4"><a href="index.html">
+            <img src="LiveGrin_Logo.png" alt="LiveGrin"></a>
+          <p>Everyone is a Farmer</p>
+          <br>
+          info@livegrin.com
+          <p>+234 (0)8010000000</p>
+          <p>Add: 16 Creek Ave. Port-Harcort, Riv.</p>
+          <!-- Connect -->
+          <div class="container-fluid padding">
+            <div class="row text-center padding">
+
+
+              <div class="col-12 social padding">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="light">
+          <h4>Company</h4>
+          <hr class="light-100">
+          <p><a href="">About Us</a></p>
+          <p><a href="">Privacy Policy</a></p>
+          <p><a href="">Terms of Use</a></p>
+          <p><a href="">Terms of Service</a></p>
+          <p><a href="">Contact</a></p>
+        </div>
+
+        <div class="col-md-4">
+          <hr class="light">
+          <h4>Discover</h4>
+          <hr class="light">
+          <p><a href="">Farms Near you</a></p>
+          <p><a href="">Brand Resources</a></p>
+          <p><a href="">Secure Shopping</a></p>
+          <p><a href="">How to Sell a Product</a></p>
+          <p><a href="">How to make an Order</a></p>
+        </div>
+
+        <div class="col-12">
+          <hr class="light">
+          <h5>&copy; 2020 livegrin.com. All Rights Reserved.</h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer Ends -->
+
+
+  <!-- Js Plugins -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+</body>
+
+</html>
